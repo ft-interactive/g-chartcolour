@@ -43,11 +43,20 @@
   	'#9EEAEC'
   ];
 
+  var backgrounds = {
+  	web:'#FFF1e0',
+  	social:'#333',
+  	video:'#335',
+  	print:'#FEE',
+  	clean:'#FFF',
+  };
+
   exports.basic = basic;
   exports.sequentialMulti = sequentialMulti;
   exports.sequentialSingle = sequentialSingle;
   exports.categorical = categorical;
   exports.diverging = diverging;
+  exports.background = backgrounds;
 
   Object.defineProperty(exports, '__esModule', { value: true });
 
