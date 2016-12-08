@@ -24,6 +24,9 @@
 	.schemes{
 		padding: 20px;
 	}
+	select{
+		margin-right: 20px;
+	}
 </style>
 	<title></title>
 </head>
@@ -31,8 +34,9 @@
 <div class="header">
 	<h1>FT Colour scales</h1>
 	<div class="schemes">
-	<select class="ui"></select>
-	Rotate colours?<input type="checkbox" name="rotatecolours" class="ui">
+	colour scheme: <select class="ui colour-schemes"></select>
+	background: <select class="ui background-schemes"></select>
+	Rotate colours?<input type="checkbox" name="rotatecolours" class="ui rotatecolours">
 	<br>
 	</div>
 </div>
@@ -41,15 +45,24 @@
 <div class="example columnchart"></div>
 <div class="example mapchart"></div>
 <div class="example scatterchart"></div>
+<div class="example labelchart"></div>
 
 </body>
 	<script type="text/javascript">
 	var axisColour = '#000';
-
-
-	d3.select('.schemes select')
+	var schemesData = Object.keys(ftgraphics).filter( (d)=>(d != 'background') );
+	console.log(schemesData);
+	d3.select('select.colour-schemes')
 		.selectAll('option')
-		.data(Object.keys(ftgraphics))
+		.data(schemesData)
+			.enter()
+		.append('option')
+			.attr('value',(d)=>d)
+			.text((d)=>d);
+
+	d3.select('select.background-schemes')
+		.selectAll('option')
+		.data(Object.keys(ftgraphics.background))
 			.enter()
 		.append('option')
 			.attr('value',(d)=>d)
@@ -57,9 +70,11 @@
 
 	d3.selectAll('.ui').on('change', updateColours);
 function updateColours(){
-	var colours = ftgraphics[d3.select('select.ui').node().value];
-	var rotate =  d3.select('[type=checkbox].ui').node().checked;
-console.log(rotate);
+	var colours = ftgraphics[d3.select('select.colour-schemes').node().value];
+	var rotate =  d3.select('[type=checkbox].ui.rotatecolours').node().checked;
+	var backgroundColour = ftgraphics.background[d3.select('select.background-schemes').node().value];
+
+	d3.selectAll('.example').style('background-color',backgroundColour);	
 
 	d3.selectAll('.fill-adjust')
 		.attr('fill', (d) => colourChoice(d.index,colours,rotate));
@@ -123,6 +138,7 @@ function colourChoice(n,colours,rotate){
 				.attr('class','line stroke-adjust')
 				.attr('d', (d)=>linedrawer(d.data))
 				.attr('stroke','#000')
+				.attr('stroke-width',2)
 				.attr('fill','none');
 
 		//utils
@@ -178,8 +194,8 @@ function colourChoice(n,colours,rotate){
 			.data(arcs)
 				.enter()
 			.append('path')
-				.attr('class', 'piesegment fill-adjust')
-				.attr('stroke', '#FFF')
+				.attr('class', 'piesegment fill-adjust stroke-background')
+				.attr('stroke', '#FFF1e0')
 				.attr('d', arc);
 
 		function pieData(n){
@@ -241,6 +257,9 @@ function colourChoice(n,colours,rotate){
 				}
 			})
 		}
+
+//text stuff
+
 
 	</script>
 

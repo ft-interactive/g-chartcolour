@@ -9,10 +9,10 @@
   "license": "BSD-3-Clause",
   "main": "build/ft-chartcolour.js",
   "jsnext:main": "index",
-  "homepage": "https://github.com/tomgp/ft-chartcolour",
+  "homepage": "https://github.com/ft-interactive/ft-chartcolour",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomgp/ft-chartcolour.git"
+    "url": "https://github.com/ft-interactive/ft-chartcolour.git"
   },
   "scripts": {
     "pretest": "rm -rf build && mkdir build && rollup -f umd -n ftgraphics -o build/ft-chartcolour.js -- index.js",
@@ -21,7 +21,6 @@
     "postpublish": "zip -j build/ft-chartcolour.zip -- LICENSE README.md build/ft-chartcolour.js build/ft-chartcolour.min.js"
   },
   "devDependencies": {
-    "chroma-js": "^1.2.1",
     "rollup": "0.27",
     "tape": "4",
     "uglify-js": "2"

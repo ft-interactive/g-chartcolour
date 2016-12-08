@@ -43,11 +43,36 @@
   	'#9EEAEC'
   ];
 
+<<<<<<< HEAD
+  var sequentialSingle__teal = [
+  	'#B1F2F2',
+  	'#91D5D7',
+  	'#73B8BC',
+  	'#589BA1',
+  	'#3F7F86',
+  	'#29646B',
+  	'#164A50'
+  ];
+=======
+  var backgrounds = {
+  	web:'#FFF1e0',
+  	social:'#333',
+  	video:'#335',
+  	print:'#FEE',
+  	clean:'#FFF',
+  };
+>>>>>>> origin/master
+
   exports.basic = basic;
   exports.sequentialMulti = sequentialMulti;
   exports.sequentialSingle = sequentialSingle;
   exports.categorical = categorical;
   exports.diverging = diverging;
+<<<<<<< HEAD
+  exports.sequentialSingle_teal = sequentialSingle__teal;
+=======
+  exports.background = backgrounds;
+>>>>>>> origin/master
 
   Object.defineProperty(exports, '__esModule', { value: true });
 
