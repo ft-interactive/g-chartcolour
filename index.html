@@ -84,6 +84,7 @@ function updateColours(){
 }
 
 function colourChoice(n,colours,rotate){
+	if(!Array.isArray(colours)) colours = Object.keys(colours).map(d=>colours[d]);
 	if(n >= colours.length && !rotate) return colours[0];
 	return colours[n%colours.length];
 }

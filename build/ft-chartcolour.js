@@ -4,25 +4,15 @@
   (factory((global.ftgraphics = global.ftgraphics || {})));
 }(this, function (exports) { 'use strict';
 
+  var backgrounds = {
+  	web:'#FFF1e0',
+  	social:'#333',
+  	video:'#335',
+  	print:'#FEE',
+  	clean:'#FFF',
+  };
+
   var basic = ['#000','#FFF'];
-
-  var sequentialMulti = [
-    	'#F78874',
-    	'#D87584',
-    	'#AB6B8C',
-    	'#776486',
-    	'#465A72',
-    	'#1F4C56'
-  ];
-
-  var sequentialSingle = [
-  	'#5A0105',
-  	'#851F1A',
-  	'#AB4333',
-  	'#C96A54',
-  	'#DC977C',
-  	'#E0C7AC'
-  ];
 
   var categorical = [
   	'#FFF',
@@ -43,6 +33,24 @@
   	'#9EEAEC'
   ];
 
+  var sequentialMulti = [
+    	'#F78874',
+    	'#D87584',
+    	'#AB6B8C',
+    	'#776486',
+    	'#465A72',
+    	'#1F4C56'
+  ];
+
+  var sequentialSingle = [
+  	'#5A0105',
+  	'#851F1A',
+  	'#AB4333',
+  	'#C96A54',
+  	'#DC977C',
+  	'#E0C7AC'
+  ];
+
   var sequentialSingle__teal = [
   	'#B1F2F2',
   	'#91D5D7',
@@ -53,21 +61,24 @@
   	'#164A50'
   ];
 
-  var backgrounds = {
-  	web:'#FFF1e0',
-  	social:'#333',
-  	video:'#335',
-  	print:'#FEE',
-  	clean:'#FFF',
+  var categoricalUkPolitics = {
+  	conservative:'#6fa7da',
+  	labour:'#e45151',
+  	'liberal democrats':'#f2a432',
+  	ukip:'#c16fad',
+  	green:'#65a68c',
+  	independent:'#cdc6b9',
+  	other:'#aea9a2',
   };
 
+  exports.background = backgrounds;
   exports.basic = basic;
-  exports.sequentialMulti = sequentialMulti;
-  exports.sequentialSingle = sequentialSingle;
   exports.categorical = categorical;
   exports.diverging = diverging;
+  exports.sequentialMulti = sequentialMulti;
+  exports.sequentialSingle = sequentialSingle;
   exports.sequentialSingle_teal = sequentialSingle__teal;
-  exports.background = backgrounds;
+  exports.ukPoliticalParties = categoricalUkPolitics;
 
   Object.defineProperty(exports, '__esModule', { value: true });
 
