@@ -1,5 +1,5 @@
 {
-  "name": "ft-chartcolour",
+  "name": "g-chartcolour",
   "version": "0.0.1",
   "description": "colours for FT charts",
   "keywords": [
@@ -7,18 +7,18 @@
     "d3-module"
   ],
   "license": "BSD-3-Clause",
-  "main": "build/ft-chartcolour.js",
+  "main": "build/g-chartcolour.js",
   "jsnext:main": "index",
-  "homepage": "https://github.com/ft-interactive/ft-chartcolour",
+  "homepage": "https://github.com/ft-interactive/g-chartcolour",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ft-interactive/ft-chartcolour.git"
+    "url": "https://github.com/ft-interactive/g-chartcolour.git"
   },
   "scripts": {
-    "pretest": "rm -rf build && mkdir build && rollup -f umd -n ftgraphics -o build/ft-chartcolour.js -- index.js",
+    "pretest": "rm -rf build && mkdir build && rollup -f umd -n gChartcolour -o build/g-chartcolour.js -- index.js",
     "test": "tape 'test/**/*-test.js'",
-    "prepublish": "npm run test && uglifyjs build/ft-chartcolour.js -c -m -o build/ft-chartcolour.min.js",
-    "postpublish": "zip -j build/ft-chartcolour.zip -- LICENSE README.md build/ft-chartcolour.js build/ft-chartcolour.min.js"
+    "prepublish": "npm run test && uglifyjs build/g-chartcolour.js -c -m -o build/g-chartcolour.min.js",
+    "postpublish": "zip -j build/g-chartcolour.zip -- LICENSE README.md build/g-chartcolour.js build/g-chartcolour.min.js"
   },
   "devDependencies": {
     "rollup": "0.27",

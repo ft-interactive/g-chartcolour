@@ -1,7 +1,7 @@
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
   typeof define === 'function' && define.amd ? define(['exports'], factory) :
-  (factory((global.ftgraphics = global.ftgraphics || {})));
+  (factory((global.gChartcolour = global.gChartcolour || {})));
 }(this, function (exports) { 'use strict';
 
   var backgrounds = {
@@ -15,9 +15,14 @@
   var basic = ['#000','#FFF'];
 
   var categorical = [
-  	'#FFF',
-  	'#000',
-  	'#F00'
+  	'#045787',
+  	'#00a9b8',
+  	'#0090ff',
+  	'#ed588d',
+  	'#94ddff',
+  	'#ed588d',
+  	'#fab316',
+  	'#d5ccbf'
   ];
 
   var diverging = [
