@@ -1,1 +1,1 @@
-export default ['#000','#FFF'];
+export default ['#00000080','#045787'];
