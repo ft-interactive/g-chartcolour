@@ -12,9 +12,9 @@
   	clean:'#FFF',
   };
 
-  var basic = ['#00000080','#045787'];
+  var basicLine = ['#d5ccbf','#045787'];
 
-  var basicInverse = ['#FFFFFF80','#94ddff'];
+  var basicLineSocial = ['#81838F','#EB3F50'];
 
   var categorical = [
   	'#045787',
@@ -79,8 +79,8 @@
   };
 
   exports.background = backgrounds;
-  exports.basic = basic;
-  exports.basicInverse = basicInverse;
+  exports.basicLine = basicLine;
+  exports.basicLineSocial = basicLineSocial;
   exports.categorical = categorical;
   exports.diverging = diverging;
   exports.sequentialMulti = sequentialMulti;

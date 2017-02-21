@@ -1,1 +1,0 @@
-export default ['#d5ccbf','#94ddff'];
