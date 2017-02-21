@@ -14,7 +14,7 @@
 
   var basic = ['#00000080','#045787'];
 
-  var basicInverse = ['#FFFFFF80','#045787'];
+  var basicInverse = ['#FFFFFF80','#94ddff'];
 
   var categorical = [
   	'#045787',
