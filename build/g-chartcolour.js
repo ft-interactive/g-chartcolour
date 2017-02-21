@@ -14,6 +14,8 @@
 
   var basic = ['#00000080','#045787'];
 
+  var basicInverse = ['#FFFFFF80','#045787'];
+
   var categorical = [
   	'#045787',
   	'#00a9b8',
@@ -78,6 +80,7 @@
 
   exports.background = backgrounds;
   exports.basic = basic;
+  exports.basicInverse = basicInverse;
   exports.categorical = categorical;
   exports.diverging = diverging;
   exports.sequentialMulti = sequentialMulti;

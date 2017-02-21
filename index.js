@@ -1,5 +1,6 @@
 export {default as background} from "./src/backgrounds";
 export {default as basic} from "./src/basic";
+export {default as basicInverse} from "./src/basic-inverse";
 export {default as categorical} from "./src/categorical";
 export {default as diverging} from "./src/diverging";
 export {default as sequentialMulti} from "./src/sequential-multi";
