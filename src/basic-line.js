@@ -1,1 +1,1 @@
-export default ['#d5ccbf','#045787'];
+export default ['#d5ccbf','#ed588d']; //the first colour is neutral / background, the second colour primary/ highlight
