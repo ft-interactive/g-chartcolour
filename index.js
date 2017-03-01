@@ -3,6 +3,7 @@ export {default as basicLine} from "./src/basic-line";
 export {default as basicLineSocial} from "./src/basic-line-social";
 export {default as categorical} from "./src/categorical";
 export {default as diverging} from "./src/diverging";
+export {default as extendedLine} from "./src/extended-line";
 export {default as sequentialMulti} from "./src/sequential-multi";
 export {default as sequentialSingle} from "./src/sequential-single";
 export {default as sequentialSingle_teal} from "./src/sequential-single__teal";

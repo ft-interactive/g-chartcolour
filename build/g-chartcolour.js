@@ -12,7 +12,7 @@
   	clean:'#FFF',
   };
 
-  var basicLine = ['#d5ccbf','#045787'];
+  var basicLine = ['#d5ccbf','#ed588d']; //the first colour is neutral / background, the second colour primary/ highlight
 
   var basicLineSocial = ['#81838F','#EB3F50'];
 
@@ -39,6 +39,8 @@
   	'#80C49E',
   	'#9EEAEC'
   ];
+
+  var extendedLine = ['#d5ccbf','#ed588d','#FF0000','#00FF00']; //
 
   var sequentialMulti = [
     	'#F78874',
@@ -83,6 +85,7 @@
   exports.basicLineSocial = basicLineSocial;
   exports.categorical = categorical;
   exports.diverging = diverging;
+  exports.extendedLine = extendedLine;
   exports.sequentialMulti = sequentialMulti;
   exports.sequentialSingle = sequentialSingle;
   exports.sequentialSingle_teal = sequentialSingle__teal;
