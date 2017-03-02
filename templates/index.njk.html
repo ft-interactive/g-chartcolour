@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        .swatch{
+            display: block;
+            width:50px;
+            height:50px;
+        }
+
+        .swatch-container{
+            display: inline-block;
+        }
+        </style>
+    </head>
+    <body>
+        {% for palette in palettes %}
+        <div class="palette">
+        <h2>{{ palette.name }}</h2>
+            {% for swatch in palette %}
+            <div class="swatch-container">
+                {% if swatch.name %}{{ swatch.name }}{% else %}{{ loop.index0 }}{% endif %}
+                : {{swatch.colour}}
+                <div class="swatch" style="background:{{ swatch.colour }}">&nbsp;</div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </body>
+</html>
