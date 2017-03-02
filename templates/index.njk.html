@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        .swatch {
+            display: block;
+            width:80px;
+            height:50px;
+        }
+
+        .swatch-container {
+            margin:10px;
+            display: inline-block;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>g-chartcolour: FT colour scales for D3 graphics</h1>
+        <a href="test.html">test page</a> <a href="https://github.com/ft-interactive/g-chartcolour">github</a>
+        {% for palette in palettes %}
+        <div class="palette">
+        <h2>{{ palette.name }}</h2>
+            {% for swatch in palette.colours %}
+            <div class="swatch-container">
+                <b>{{ swatch.name }}:</b><br>{{swatch.colour}}
+                <div class="swatch" style="background:{{ swatch.colour }}">&nbsp;</div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </body>
+</html>
