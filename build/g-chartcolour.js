@@ -12,7 +12,7 @@
   	clean:'#FFF',
   };
 
-  var basicLine = ['#d5ccbf','#045787'];
+  var basicLine = ['#d5ccbf','#ed588d']; //the first colour is neutral / background, the second colour primary/ highlight
 
   var basicLineSocial = ['#81838F','#EB3F50'];
 

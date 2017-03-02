@@ -5,25 +5,31 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
-        .swatch{
+        * {
+            font-family: sans-serif;
+        }
+
+        .swatch {
             display: block;
-            width:50px;
+            width:80px;
             height:50px;
         }
 
-        .swatch-container{
+        .swatch-container {
+            margin:10px;
             display: inline-block;
         }
         </style>
     </head>
     <body>
+        <h1>g-chartcolour: FT colour scales for D3 graphics</h1>
+        <a href="test.html">test page</a> <a href="https://github.com/ft-interactive/g-chartcolour">github</a>
         {% for palette in palettes %}
         <div class="palette">
         <h2>{{ palette.name }}</h2>
-            {% for swatch in palette %}
+            {% for swatch in palette.colours %}
             <div class="swatch-container">
-                {% if swatch.name %}{{ swatch.name }}{% else %}{{ loop.index0 }}{% endif %}
-                : {{swatch.colour}}
+                <b>{{ swatch.name }}:</b><br>{{swatch.colour}}
                 <div class="swatch" style="background:{{ swatch.colour }}">&nbsp;</div>
             </div>
             {% endfor %}

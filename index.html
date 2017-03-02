@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        .swatch {
+            display: block;
+            width:80px;
+            height:50px;
+        }
+
+        .swatch-container {
+            margin:10px;
+            display: inline-block;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>g-chartcolour: FT colour scales for D3 graphics</h1>
+        <a href="test.html">test page</a> <a href="https://github.com/ft-interactive/g-chartcolour">github</a>
+        
+        <div class="palette">
+        <h2>background</h2>
+            
+            <div class="swatch-container">
+                <b>web:</b><br>#FFF1e0
+                <div class="swatch" style="background:#FFF1e0">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>social:</b><br>#333
+                <div class="swatch" style="background:#333">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>video:</b><br>#335
+                <div class="swatch" style="background:#335">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>print:</b><br>#FEE
+                <div class="swatch" style="background:#FEE">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>clean:</b><br>#FFF
+                <div class="swatch" style="background:#FFF">&nbsp;</div>
+            </div>
+            
+        </div>
+        
+        <div class="palette">
+        <h2>basicLine</h2>
+            
+            <div class="swatch-container">
+                <b>0:</b><br>#d5ccbf
+                <div class="swatch" style="background:#d5ccbf">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>1:</b><br>#ed588d
+                <div class="swatch" style="background:#ed588d">&nbsp;</div>
+            </div>
+            
+        </div>
+        
+        <div class="palette">
+        <h2>basicLineSocial</h2>
+            
+            <div class="swatch-container">
+                <b>0:</b><br>#81838F
+                <div class="swatch" style="background:#81838F">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>1:</b><br>#EB3F50
+                <div class="swatch" style="background:#EB3F50">&nbsp;</div>
+            </div>
+            
+        </div>
+        
+        <div class="palette">
+        <h2>categorical</h2>
+            
+            <div class="swatch-container">
+                <b>0:</b><br>#045787
+                <div class="swatch" style="background:#045787">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>1:</b><br>#00a9b8
+                <div class="swatch" style="background:#00a9b8">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>2:</b><br>#0090ff
+                <div class="swatch" style="background:#0090ff">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>3:</b><br>#ed588d
+                <div class="swatch" style="background:#ed588d">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>4:</b><br>#94ddff
+                <div class="swatch" style="background:#94ddff">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>5:</b><br>#ed588d
+                <div class="swatch" style="background:#ed588d">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>6:</b><br>#fab316
+                <div class="swatch" style="background:#fab316">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>7:</b><br>#d5ccbf
+                <div class="swatch" style="background:#d5ccbf">&nbsp;</div>
+            </div>
+            
+        </div>
+        
+        <div class="palette">
+        <h2>diverging</h2>
+            
+            <div class="swatch-container">
+                <b>0:</b><br>#5F3C41
+                <div class="swatch" style="background:#5F3C41">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>1:</b><br>#805F70
+                <div class="swatch" style="background:#805F70">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>2:</b><br>#9389A2
+                <div class="swatch" style="background:#9389A2">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>3:</b><br>#9AB8CE
+                <div class="swatch" style="background:#9AB8CE">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>4:</b><br>#9EEAEC
+                <div class="swatch" style="background:#9EEAEC">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>5:</b><br>#63412D
+                <div class="swatch" style="background:#63412D">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>6:</b><br>#7A6A3A
+                <div class="swatch" style="background:#7A6A3A">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>7:</b><br>#81975E
+                <div class="swatch" style="background:#81975E">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>8:</b><br>#80C49E
+                <div class="swatch" style="background:#80C49E">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>9:</b><br>#9EEAEC
+                <div class="swatch" style="background:#9EEAEC">&nbsp;</div>
+            </div>
+            
+        </div>
+        
+        <div class="palette">
+        <h2>sequentialMulti</h2>
+            
+            <div class="swatch-container">
+                <b>0:</b><br>#F78874
+                <div class="swatch" style="background:#F78874">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>1:</b><br>#D87584
+                <div class="swatch" style="background:#D87584">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>2:</b><br>#AB6B8C
+                <div class="swatch" style="background:#AB6B8C">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>3:</b><br>#776486
+                <div class="swatch" style="background:#776486">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>4:</b><br>#465A72
+                <div class="swatch" style="background:#465A72">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>5:</b><br>#1F4C56
+                <div class="swatch" style="background:#1F4C56">&nbsp;</div>
+            </div>
+            
+        </div>
+        
+        <div class="palette">
+        <h2>sequentialSingle</h2>
+            
+            <div class="swatch-container">
+                <b>0:</b><br>#5A0105
+                <div class="swatch" style="background:#5A0105">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>1:</b><br>#851F1A
+                <div class="swatch" style="background:#851F1A">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>2:</b><br>#AB4333
+                <div class="swatch" style="background:#AB4333">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>3:</b><br>#C96A54
+                <div class="swatch" style="background:#C96A54">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>4:</b><br>#DC977C
+                <div class="swatch" style="background:#DC977C">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>5:</b><br>#E0C7AC
+                <div class="swatch" style="background:#E0C7AC">&nbsp;</div>
+            </div>
+            
+        </div>
+        
+        <div class="palette">
+        <h2>sequentialSingle_teal</h2>
+            
+            <div class="swatch-container">
+                <b>0:</b><br>#B1F2F2
+                <div class="swatch" style="background:#B1F2F2">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>1:</b><br>#91D5D7
+                <div class="swatch" style="background:#91D5D7">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>2:</b><br>#73B8BC
+                <div class="swatch" style="background:#73B8BC">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>3:</b><br>#589BA1
+                <div class="swatch" style="background:#589BA1">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>4:</b><br>#3F7F86
+                <div class="swatch" style="background:#3F7F86">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>5:</b><br>#29646B
+                <div class="swatch" style="background:#29646B">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>6:</b><br>#164A50
+                <div class="swatch" style="background:#164A50">&nbsp;</div>
+            </div>
+            
+        </div>
+        
+        <div class="palette">
+        <h2>ukPoliticalParties</h2>
+            
+            <div class="swatch-container">
+                <b>conservative:</b><br>#6fa7da
+                <div class="swatch" style="background:#6fa7da">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>labour:</b><br>#e45151
+                <div class="swatch" style="background:#e45151">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>liberal democrats:</b><br>#f2a432
+                <div class="swatch" style="background:#f2a432">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>ukip:</b><br>#c16fad
+                <div class="swatch" style="background:#c16fad">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>green:</b><br>#65a68c
+                <div class="swatch" style="background:#65a68c">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>independent:</b><br>#cdc6b9
+                <div class="swatch" style="background:#cdc6b9">&nbsp;</div>
+            </div>
+            
+            <div class="swatch-container">
+                <b>other:</b><br>#aea9a2
+                <div class="swatch" style="background:#aea9a2">&nbsp;</div>
+            </div>
+            
+        </div>
+        
+    </body>
+</html>
