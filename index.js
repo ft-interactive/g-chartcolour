@@ -1,5 +1,6 @@
 export {default as background} from "./src/backgrounds";
-export {default as basicLine} from "./src/basic-line";
+export {default as basicLineWeb} from "./src/basic-line-web";
+export {default as basicLinePrint} from "./src/basic-line-print";
 export {default as basicLineSocial} from "./src/basic-line-social";
 export {default as categorical} from "./src/categorical";
 export {default as diverging} from "./src/diverging";
