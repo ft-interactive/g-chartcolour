@@ -17,10 +17,12 @@
   "scripts": {
     "pretest": "rm -rf build && mkdir build && rollup -f umd -n gChartcolour -o build/g-chartcolour.js -- index.js",
     "test": "tape 'test/**/*-test.js'",
-    "prepublish": "npm run test && uglifyjs build/g-chartcolour.js -c -m -o build/g-chartcolour.min.js",
-    "postpublish": "zip -j build/g-chartcolour.zip -- LICENSE README.md build/g-chartcolour.js build/g-chartcolour.min.js"
+    "prepublish": "npm run test && uglifyjs build/g-chartcolour.js -c -m -o build/g-chartcolour.min.js && node doc.js",
+    "postpublish": "zip -j build/g-chartcolour.zip -- LICENSE README.md build/g-chartcolour.js build/g-chartcolour.min.js",
+    "build-docs": "node doc.js"
   },
   "devDependencies": {
+    "nunjucks": "^3.0.0",
     "rollup": "0.27",
     "tape": "4",
     "uglify-js": "2"
