@@ -12,7 +12,10 @@
   	clean:'#FFF',
   };
 
-  var basicLine = ['#d5ccbf','#ed588d']; //the first colour is neutral / background, the second colour primary/ highlight
+  var basicLineWeb = ['#CEC6B9','#AF516C']; //the first colour is neutral / background, the second colour primary/ highlight
+  //export default ['#d5ccbf','#ed588d']; //new web colours uncomment when they are approved the first colour is neutral / background, the second colour primary/ highlight
+
+  var basicLinePrint = ['#c6d6cc','#006a93']; //the first colour is neutral / background, the second colour primary/ highlight
 
   var basicLineSocial = ['#81838F','#EB3F50'];
 
@@ -81,7 +84,8 @@
   };
 
   exports.background = backgrounds;
-  exports.basicLine = basicLine;
+  exports.basicLineWeb = basicLineWeb;
+  exports.basicLinePrint = basicLinePrint;
   exports.basicLineSocial = basicLineSocial;
   exports.categorical = categorical;
   exports.diverging = diverging;
