@@ -44,6 +44,12 @@
 
   var extendedLine = ['#d5ccbf','#ed588d','#FF0000','#00FF00']; //
 
+  var linePrint = ['#006a93','#ddb831','#c6d6cc','#ad1c21','#55a2c7','#0083b3'];
+
+  var lineSocial = ['#eb3f50','#00d9ca','#bf9413','#1f5e99','#a7ff59','#ff9b96','#81838f'];
+
+  var lineWeb = ['#af516c','#efb1af','#d7706c','#76acb8','#81d0e6','#4e86b6','#b8b1a9'];
+
   var sequentialMulti = [
     	'#F78874',
     	'#D87584',
@@ -89,6 +95,9 @@
   exports.categorical = categorical;
   exports.diverging = diverging;
   exports.extendedLine = extendedLine;
+  exports.linePrint = linePrint;
+  exports.lineSocial = lineSocial;
+  exports.lineWeb = lineWeb;
   exports.sequentialMulti = sequentialMulti;
   exports.sequentialSingle = sequentialSingle;
   exports.sequentialSingle_teal = sequentialSingle__teal;
