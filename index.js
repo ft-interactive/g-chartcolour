@@ -3,6 +3,7 @@ export {default as basicLineWeb} from "./src/basic-line-web";
 export {default as basicLinePrint} from "./src/basic-line-print";
 export {default as basicLineSocial} from "./src/basic-line-social";
 export {default as categorical} from "./src/categorical";
+export {default as categorical_2} from "./src/categorical_2";
 export {default as diverging} from "./src/diverging";
 export {default as extendedLine} from "./src/extended-line";
 export {default as linePrint} from "./src/line-print";

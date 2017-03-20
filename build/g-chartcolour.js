@@ -29,6 +29,16 @@
   	'#d5ccbf'
   ];
 
+  var categorical_2 = [
+  	'#701329',
+  	'#D93473',
+  	'#0F5499',
+  	'#0095A6',
+  	'#9BC44E',
+  	'#70CCCC',
+  	'#D4C7BF'
+  ];
+
   var diverging = [
   	'#5F3C41',
   	'#805F70',
@@ -93,6 +103,7 @@
   exports.basicLinePrint = basicLinePrint;
   exports.basicLineSocial = basicLineSocial;
   exports.categorical = categorical;
+  exports.categorical_2 = categorical_2;
   exports.diverging = diverging;
   exports.extendedLine = extendedLine;
   exports.linePrint = linePrint;
