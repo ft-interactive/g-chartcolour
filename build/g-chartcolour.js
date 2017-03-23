@@ -61,12 +61,13 @@
   var lineWeb = ['#af516c','#efb1af','#d7706c','#76acb8','#81d0e6','#4e86b6','#b8b1a9'];
 
   var sequentialMulti = [
-    	'#F78874',
-    	'#D87584',
-    	'#AB6B8C',
-    	'#776486',
-    	'#465A72',
-    	'#1F4C56'
+    '#fff1e5',
+    '#c4dbdb',
+    '#91c3d0',
+    '#66a9c3',
+    '#428db6',
+    '#2571a8',
+    '#0f5499'
   ];
 
   var sequentialSingle = [
