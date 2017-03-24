@@ -12,6 +12,7 @@ export {default as lineSocial} from "./src/line-social";
 export {default as lineWeb} from "./src/line-web";
 export {default as sequentialMulti} from "./src/sequential-multi";
 export {default as sequentialMulti_2} from "./src/sequential-multi_2";
+export {default as sequentialMulti_3} from "./src/sequential-multi_3";
 export {default as sequentialSingle} from "./src/sequential-single";
 export {default as sequentialSingle_teal} from "./src/sequential-single__teal";
 export {default as ukPoliticalParties} from "./src/categorical-uk-politics";

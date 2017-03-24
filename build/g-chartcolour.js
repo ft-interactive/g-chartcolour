@@ -24,13 +24,13 @@
 	];
 
 	var categorical_2 = [
-		'#701329',
-		'#D93473',
 		'#0F5499',
-		'#0095A6',
+		'#6DD9D9',
 		'#9BC44E',
-		'#70CCCC',
-		'#D4C7BF'
+		'#009DB3',
+		'#701329',
+		'#C2B7AF',
+		'#D93473'
 	];
 
 	var diverging = [
@@ -74,6 +74,14 @@
 	'#eb4b58',
 	'#d42752',
 	'#b31147'
+	];
+
+	var sequentialMulti_3 = [
+	'#f3dec8',
+	'#8ac090',
+	'#4c9298',
+	'#236386',
+	'#0a3866'
 	];
 
 	var sequentialSingle = [
@@ -120,6 +128,7 @@
 	exports.lineWeb = lineWeb;
 	exports.sequentialMulti = sequentialMulti;
 	exports.sequentialMulti_2 = sequentialMulti_2;
+	exports.sequentialMulti_3 = sequentialMulti_3;
 	exports.sequentialSingle = sequentialSingle;
 	exports.sequentialSingle_teal = sequentialSingle__teal;
 	exports.ukPoliticalParties = categoricalUkPolitics;
