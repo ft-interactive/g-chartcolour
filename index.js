@@ -4,6 +4,7 @@ export {default as basicLinePrint} from "./src/basic-line-print";
 export {default as basicLineSocial} from "./src/basic-line-social";
 export {default as categorical} from "./src/categorical";
 export {default as categorical_2} from "./src/categorical_2";
+export {default as categorical_bar} from "./src/categorical_bar";
 export {default as diverging} from "./src/diverging";
 export {default as diverging_7} from "./src/diverging-7";
 export {default as extendedLine} from "./src/extended-line";
