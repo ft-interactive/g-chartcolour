@@ -33,15 +33,15 @@
 		'#D94174'
 	];
 
-    var categorical_bar = [
-    '#0F5499',
-    '#6DD9D9',
-    '#9BC44E',
-    '#009DB3',
-    '#701329',
-    '#C2B7AF',
-    '#D94174'
-  ];
+	var categorical_bar = [
+		'#0f5499',
+		'#4798c2',
+		'#a8d8e0',
+		'#a0c462',
+		'#d9648b',
+		'#7f193d',
+		'#d9cdc3'
+	];
 
 	var diverging = [
 	'#b31147',
@@ -130,6 +130,7 @@
 	exports.basicLineSocial = basicLineSocial;
 	exports.categorical = categorical;
 	exports.categorical_2 = categorical_2;
+	exports.categorical_bar = categorical_bar;
 	exports.diverging = diverging;
 	exports.diverging_7 = diverging7;
 	exports.extendedLine = extendedLine;
