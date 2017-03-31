@@ -19,18 +19,8 @@
 
 	var basicLineSocial = ['#81838F','#EB3F50'];
 
-	var categorical = [
-	'#f3dec8','#91c492','#529ba2','#287099','#0c467f'
-	];
-
-	var categorical_2 = [
-		'#0F5499',
-		'#6DD9D9',
-		'#9BC44E',
-		'#009DB3',
-		'#701329',
-		'#C2B7AF',
-		'#D94174'
+	var categorical_line = [
+	'#0F5499','#D9417B','#4497C2','#9DBF57','#8DCDD9','#80001E','#C2B7AF'
 	];
 
 	var categorical_bar = [
@@ -128,8 +118,7 @@
 	exports.basicLineWeb = basicLineWeb;
 	exports.basicLinePrint = basicLinePrint;
 	exports.basicLineSocial = basicLineSocial;
-	exports.categorical = categorical;
-	exports.categorical_2 = categorical_2;
+	exports.categorical_line = categorical_line;
 	exports.categorical_bar = categorical_bar;
 	exports.diverging = diverging;
 	exports.diverging_7 = diverging7;
