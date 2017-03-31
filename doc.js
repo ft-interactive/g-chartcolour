@@ -2,6 +2,8 @@ const colours = require('./build/g-chartcolour.js');
 const fs = require('fs');
 const nunjucks = require('nunjucks');
 
+console.log('building docs');
+
 const normalisedPalettes = Object.keys(colours)
         .map(function(key){
             let col;
@@ -16,7 +18,7 @@ const normalisedPalettes = Object.keys(colours)
                     colour:colours[key][d]
                 }));
             }
-            return { 
+            return {
                 name:key,
                 colours:col,
             }
