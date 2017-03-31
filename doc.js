@@ -1,12 +1,12 @@
-const colours = require('./build/g-chartcolour.js');
-const fs = require('fs');
-const nunjucks = require('nunjucks');
+var colours = require('./build/g-chartcolour.js');
+var fs = require('fs');
+var nunjucks = require('nunjucks');
 
 console.log('building docs');
 
-const normalisedPalettes = Object.keys(colours)
+var normalisedPalettes = Object.keys(colours)
         .map(function(key){
-            let col;
+            var col;
             if(Array.isArray(colours[key])){
                 col = colours[key].map((d,i)=>({
                     name:i,
@@ -30,6 +30,4 @@ context = {
     palettes: normalisedPalettes,
 };
 
-const html = nunjucks.render('./templates/index.njk.html', context);
-
-fs.writeFileSync('index.html',html);
+fs.writeFileSync('index.html',nunjucks.render('./templates/index.njk.html', context));
