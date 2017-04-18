@@ -7,7 +7,7 @@ A JS module (following [the D3 pattern](https://bost.ocks.org/mike/d3-plugin/)) 
 
 # using
 
-Either `npm install g-chartcolour' or you can include it directly in your page via unpkg...
+Either `npm install g-chartcolour` or you can include it directly in your page via unpkg...
 
 https://unpkg.com/g-chartframe@0.3.0/build/g-chartframe.js
 
