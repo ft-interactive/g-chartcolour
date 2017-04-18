@@ -1,4 +1,5 @@
 # ft-chartcolour
+Work in progress.
 
 A JS module (following [the D3 pattern](https://bost.ocks.org/mike/d3-plugin/)) for colours in FT charts.
 

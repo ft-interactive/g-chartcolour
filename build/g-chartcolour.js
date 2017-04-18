@@ -114,6 +114,16 @@
 		other:'#aea9a2',
 	};
 
+	var categoricalUkPoliticsText = {
+		conservative:'#0087dc',
+		labour:'#BF1F1F',
+		'liberal democrats':'#FDBB30',
+		ukip:'#B3009D',
+		green:'#008066',
+		independent:'#cdc6b9',
+		other:'#aea9a2',
+	};
+
 	exports.background = backgrounds;
 	exports.basicLineWeb = basicLineWeb;
 	exports.basicLinePrint = basicLinePrint;
@@ -132,6 +142,7 @@
 	exports.sequentialSingle = sequentialSingle;
 	exports.sequentialSingle_teal = sequentialSingle__teal;
 	exports.ukPoliticalParties = categoricalUkPolitics;
+	exports.ukPoliticalPartiesText = categoricalUkPoliticsText;
 
 	Object.defineProperty(exports, '__esModule', { value: true });
 
