@@ -105,23 +105,37 @@
 	];
 
 	var categoricalUkPolitics = {
-		conservative:'#6fa7da',
-		labour:'#e45151',
-		'liberal democrats':'#f2a432',
-		ukip:'#c16fad',
+		conservative:'#6da8e1',
+		labour:'#e25050',
+		'liberal democrats':'#f0a330',
+		ukip:'#ca6dbf',
 		green:'#65a68c',
-		independent:'#cdc6b9',
-		other:'#aea9a2',
+	  snp:'#f2d92d',
+	  dup:'#827996',
+	  sf:'#99bf70',
+	  pc:'#99d2d0',
+	  alliance:'#ffc660',
+		independent:'#CEC6B9',
+		other:'#CEC6B9',
+	  sdlp:'#bed676',
+	  uup:'#6da8e1',
 	};
 
 	var categoricalUkPoliticsText = {
-		conservative:'#0087dc',
-		labour:'#BF1F1F',
-		'liberal democrats':'#FDBB30',
-		ukip:'#B3009D',
+		conservative:'#1369bf',
+		labour:'#bf1f1f',
+		'liberal democrats':'#c68024',
+		ukip:'#b3009d',
 		green:'#008066',
-		independent:'#cdc6b9',
-		other:'#aea9a2',
+	  snp:'#99891b',
+	  dup:'#443e71',
+	  sf:'#6a8d32',
+	  pc:'#54a19c',
+	  alliance:'#dba436',
+		independent:'#a7a59b',
+		other:'#a7a59b',
+	  sdlp:'#9cb157',
+	  uup:'#1369bf',
 	};
 
 	exports.background = backgrounds;
