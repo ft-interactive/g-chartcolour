@@ -26,7 +26,7 @@
         <a href="test.html">test page</a> <a href="https://github.com/ft-interactive/g-chartcolour">github</a>
         {% for palette in palettes %}
         <div class="palette">
-        <h2>{{ palette.name }}</h2>
+        <h2 id="{{palette.name}}"><a href="#{{palette.name}}">#</a>{{ palette.name }}</h2>
             {% for swatch in palette.colours %}
             <div class="swatch-container">
                 <b>{{ swatch.name }}:</b><br>{{swatch.colour}}
