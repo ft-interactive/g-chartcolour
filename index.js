@@ -18,3 +18,5 @@ export {default as sequentialSingle_teal} from "./src/sequential-single__teal";
 export {default as ukPoliticalParties} from "./src/categorical-uk-politics";
 export {default as ukPoliticalPartiesText} from "./src/categorical-uk-politics-text";
 export {default as ukPoliticalPartiesPrint} from "./src/categorical-uk-politics-print";
+export {default as usPoliticalPartiesSmallArea} from "./src/categorical-us-politics-smallarea";
+export {default as usPoliticalPartiesLargeArea} from "./src/categorical-us-politics-largearea";
