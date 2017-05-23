@@ -1,2 +1,2 @@
-export default ['#CEC6B9','#AF516C']; //the first colour is neutral / background, the second colour primary/ highlight
+export default ['#EB5E8D','#0f5499']; //the first colour is neutral / background, the second colour primary/ highlight
 //export default ['#d5ccbf','#ed588d']; //new web colours uncomment when they are approved the first colour is neutral / background, the second colour primary/ highlight

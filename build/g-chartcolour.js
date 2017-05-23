@@ -12,7 +12,7 @@
   	clean:'#FFF',
   };
 
-  var basicLineWeb = ['#CEC6B9','#AF516C']; //the first colour is neutral / background, the second colour primary/ highlight
+  var basicLineWeb = ['#EB5E8D','#0f5499']; //the first colour is neutral / background, the second colour primary/ highlight
   //export default ['#d5ccbf','#ed588d']; //new web colours uncomment when they are approved the first colour is neutral / background, the second colour primary/ highlight
 
   var basicLinePrint = ['#c6d6cc','#006a93']; //the first colour is neutral / background, the second colour primary/ highlight
@@ -20,7 +20,7 @@
   var basicLineSocial = ['#81838F','#EB3F50'];
 
   var categorical_line = [
-  '#0F5499','#D9417B','#4497C2','#9DBF57','#8DCDD9','#80001E','#C2B7AF'
+  '#0f5499','#EB5E8D','#70DCE6','#9dbf57','#208fce','#7f062e','#c2b7af'
   ];
 
   var categorical_bar = [
@@ -46,7 +46,7 @@
   ];
 
   var diverging7 = [
-  	'#b31147','#da5f4d','#f59d71','#f3dec8','#7fbed3','#3c91c7','#1162b3'
+  	'#b31147','#d75d79','#f09ba8','#f3dec8','#a9b0dd','#5884d6','#105ba6'
   ];
 
   var extendedLine = ['#d5ccbf','#ed588d','#FF0000','#00FF00']; //
@@ -55,25 +55,23 @@
 
   var lineSocial = ['#eb3f50','#00d9ca','#bf9413','#1f5e99','#a7ff59','#ff9b96','#81838f'];
 
-  var lineWeb = ['#af516c','#efb1af','#d7706c','#76acb8','#81d0e6','#4e86b6','#b8b1a9'];
+  var lineWeb = ['#0f5499','#EB5E8D','#70DCE6','#9dbf57','#208fce','#7f062e','#c2b7af'];
 
   var sequentialMulti = [
-  '#f2dfce',
-  '#9ac9d0',
-  '#63aac2',
-  '#3b88ae',
-  '#1f6697',
-  '#0c467f'
+  '#f3dec8',
+  '#98c3ce',
+  '#649ec1',
+  '#3c78ae',
+  '#0f5499'
   ];
 
   var sequentialMulti_2 = [
   '#f3dec8',
-  '#febb93',
-  '#ff9672',
-  '#f9725f',
-  '#eb4b58',
-  '#d42752',
-  '#b31147'
+  '#f1b499',
+  '#e88a6e',
+  '#d7604c',
+  '#bf3536',
+  '#990f3d'
   ];
 
   var sequentialMulti_3 = [
@@ -95,13 +93,8 @@
   ];
 
   var sequentialSingle__teal = [
-  	'#B1F2F2',
-  	'#91D5D7',
-  	'#73B8BC',
-  	'#589BA1',
-  	'#3F7F86',
-  	'#29646B',
-  	'#164A50'
+  	'#f3dec8','#96c8c7','#5aa8ae','#2e8790','#0d656f','#00464d'
+  	
   ];
 
   var categoricalUkPolitics = {
