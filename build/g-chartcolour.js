@@ -57,6 +57,11 @@
 
   var lineWeb = ['#0f5499','#EB5E8D','#70DCE6','#9dbf57','#208fce','#7f062e','#c2b7af'];
 
+  var noData = {
+    area:'#DAD2C3',
+    line:'#DAD2C3'
+  };
+
   var sequentialMulti = [
   '#f3dec8',
   '#98c3ce',
@@ -180,6 +185,7 @@
   exports.linePrint = linePrint;
   exports.lineSocial = lineSocial;
   exports.lineWeb = lineWeb;
+  exports.noData = noData;
   exports.sequentialMulti = sequentialMulti;
   exports.sequentialMulti_2 = sequentialMulti_2;
   exports.sequentialMulti_3 = sequentialMulti_3;
