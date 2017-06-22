@@ -58,6 +58,10 @@
 
   var lineWeb = ['#0f5499','#EB5E8D','#70DCE6','#9dbf57','#208fce','#7f062e','#c2b7af'];
 
+  var mutedFirstLinePrint = ['#00652e','#006a93','#ddb831','#ad1c21','#55a2c7','#0083b3'];
+
+  var mutedFirstLineSocial = ['#cccccc', '#eb3f50','#00d9ca','#bf9413','#1f5e99','#a7ff59','#ff9b96','#81838f'];
+
   var mutedFirstLineWeb = ['#B3A9A0','#0f5499','#EB5E8D','#70DCE6','#9dbf57','#208fce','#7f062e'];
 
   var noData = {
@@ -188,6 +192,8 @@
   exports.linePrint = linePrint;
   exports.lineSocial = lineSocial;
   exports.lineWeb = lineWeb;
+  exports.mutedFirstLinePrint = mutedFirstLinePrint;
+  exports.mutedFirstLineSocial = mutedFirstLineSocial;
   exports.mutedFirstLineWeb = mutedFirstLineWeb;
   exports.noData = noData;
   exports.sequentialMulti = sequentialMulti;

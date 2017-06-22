@@ -10,6 +10,8 @@ export {default as extendedLine} from "./src/extended-line";
 export {default as linePrint} from "./src/line-print";
 export {default as lineSocial} from "./src/line-social";
 export {default as lineWeb} from "./src/line-web";
+export {default as mutedFirstLinePrint} from "./src/muted-first-line-print";
+export {default as mutedFirstLineSocial} from "./src/muted-first-line-social";
 export {default as mutedFirstLineWeb} from "./src/muted-first-line-web";
 export {default as noData} from "./src/no-data";
 export {default as sequentialMulti} from "./src/sequential-multi";
