@@ -57,6 +57,8 @@
 
   var lineWeb = ['#0f5499','#EB5E8D','#70DCE6','#9dbf57','#208fce','#7f062e','#c2b7af'];
 
+  var mutedFirstLineWeb = ['#E6D9CE','#0f5499','#EB5E8D','#70DCE6','#9dbf57','#208fce','#7f062e'];
+
   var noData = {
     area:'#DAD2C3',
     line:'#B9B3A7'
@@ -185,6 +187,7 @@
   exports.linePrint = linePrint;
   exports.lineSocial = lineSocial;
   exports.lineWeb = lineWeb;
+  exports.mutedFirstLineWeb = mutedFirstLineWeb;
   exports.noData = noData;
   exports.sequentialMulti = sequentialMulti;
   exports.sequentialMulti_2 = sequentialMulti_2;
