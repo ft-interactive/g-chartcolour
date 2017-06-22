@@ -20,17 +20,18 @@
   var basicLineSocial = ['#81838F','#EB3F50'];
 
   var categorical_line = [
-  '#0f5499','#EB5E8D','#70DCE6','#9dbf57','#208fce','#7f062e','#c2b7af'
+  '#0f5499','#EB5E8D','#70DCE6','#9dbf57','#208fce','#7f062e','#c2b7af','#ce3140'
   ];
 
   var categorical_bar = [
-  	'#0f5499',
-  	'#4798c2',
-  	'#a8d8e0',
-  	'#a0c462',
-  	'#d9648b',
-  	'#7f193d',
-  	'#d9cdc3'
+  	'#1E558C',
+    '#9EE5F3',
+    '#1E8FCC',
+    '#B3325D',
+    '#FF75A3',
+    '#D9CCC3',
+    '#AECC70',
+    '#F34D5B'
   ];
 
   var diverging = [
@@ -57,7 +58,7 @@
 
   var lineWeb = ['#0f5499','#EB5E8D','#70DCE6','#9dbf57','#208fce','#7f062e','#c2b7af'];
 
-  var mutedFirstLineWeb = ['#E6D9CE','#0f5499','#EB5E8D','#70DCE6','#9dbf57','#208fce','#7f062e'];
+  var mutedFirstLineWeb = ['#B3A9A0','#0f5499','#EB5E8D','#70DCE6','#9dbf57','#208fce','#7f062e'];
 
   var noData = {
     area:'#DAD2C3',
