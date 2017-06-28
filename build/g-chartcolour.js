@@ -58,7 +58,7 @@
 
   var lineWeb = ['#0f5499','#EB5E8D','#70DCE6','#9dbf57','#208fce','#7f062e','#c2b7af'];
 
-  var mutedFirstLinePrint = ['#00652e','#006a93','#ddb831','#ad1c21','#55a2c7','#0083b3'];
+  var mutedFirstLinePrint = ['#999999','#006a93','#ddb831','#AAD1D1','#ad1c21','#55a2c7','#0083b3'];
 
   var mutedFirstLineSocial = ['#cccccc', '#eb3f50','#00d9ca','#bf9413','#1f5e99','#a7ff59','#ff9b96','#81838f'];
 
