@@ -52,6 +52,26 @@
 
   var extendedLine = ['#d5ccbf','#ed588d','#FF0000','#00FF00']; //
 
+  var categoricalBarGermanyPolitics = {
+  	'CDU':'#33302E',
+  	'SPD':'#F34D5B',
+  	'FDP':'#fcc83c',
+  	'Linke':'#B3325D',
+  	'AfD':'#1E8FCC',
+    'Grune':'#AECC70',
+  	'Other':'#CEC6B9',
+  };
+
+  var categoricalLineGermanyPolitics = {
+  	'CDU':'#000000',
+  	'SPD':'#b80000',
+  	'FDP':'#f5bb00',
+  	'Linke':'#73008a',
+  	'AfD':'#52c0ff',
+    'Grune':'#00aa5b',
+  	'Other':'#CEC6B9',
+  };
+
   var linePrint = ['#006a93','#ddb831','#aad1d1','#ad1c21','#55a2c7','#0083b3'];
 
   var lineSocial = ['#eb3f50','#00d9ca','#bf9413','#1f5e99','#a7ff59','#ff9b96','#81838f'];
@@ -189,6 +209,8 @@
   exports.diverging = diverging;
   exports.diverging_7 = diverging7;
   exports.extendedLine = extendedLine;
+  exports.germanPoliticalParties_bar = categoricalBarGermanyPolitics;
+  exports.germanPoliticalParties_line = categoricalLineGermanyPolitics;
   exports.linePrint = linePrint;
   exports.lineSocial = lineSocial;
   exports.lineWeb = lineWeb;
