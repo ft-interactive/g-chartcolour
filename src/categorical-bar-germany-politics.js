@@ -1,5 +1,5 @@
 export default {
-	'CDU':'#33302E',
+	'CDU/CSU':'#33302E',
 	'SPD':'#F34D5B',
 	'FDP':'#fcc83c',
 	'Linke':'#B3325D',
