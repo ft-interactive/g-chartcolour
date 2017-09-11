@@ -53,7 +53,7 @@
   var extendedLine = ['#d5ccbf','#ed588d','#FF0000','#00FF00']; //
 
   var categoricalBarGermanyPolitics = {
-  	'CDU':'#33302E',
+  	'CDU/CSU':'#33302E',
   	'SPD':'#F34D5B',
   	'FDP':'#fcc83c',
   	'Linke':'#B3325D',
