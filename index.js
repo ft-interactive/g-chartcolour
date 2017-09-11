@@ -7,6 +7,8 @@ export {default as categorical_bar} from "./src/categorical_bar";
 export {default as diverging} from "./src/diverging";
 export {default as diverging_7} from "./src/diverging-7";
 export {default as extendedLine} from "./src/extended-line";
+export {default as germanPoliticalParties_bar} from "./src/categorical-bar-germany-politics";
+export {default as germanPoliticalParties_line} from "./src/categorical-line-germany-politics";
 export {default as linePrint} from "./src/line-print";
 export {default as lineSocial} from "./src/line-social";
 export {default as lineWeb} from "./src/line-web";
