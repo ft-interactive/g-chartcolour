@@ -58,7 +58,7 @@
   	'FDP':'#fcc83c',
   	'Linke':'#B3325D',
   	'AfD':'#1E8FCC',
-    'Grune':'#AECC70',
+    'Grüne':'#AECC70',
   	'Other':'#CEC6B9',
   };
 
@@ -68,7 +68,7 @@
   	'FDP':'#f5bb00',
   	'Linke':'#73008a',
   	'AfD':'#52c0ff',
-    'Grune':'#00aa5b',
+    'Grüne':'#00aa5b',
   	'Other':'#CEC6B9',
   };
 
