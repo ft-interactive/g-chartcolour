@@ -56,9 +56,9 @@
   	'CDU/CSU':'#33302E',
   	'SPD':'#F34D5B',
   	'FDP':'#fcc83c',
-  	'Linke':'#B3325D',
+  	'Left':'#B3325D',
   	'AfD':'#1E8FCC',
-    'Grüne':'#AECC70',
+    'Green':'#AECC70',
   	'Other':'#CEC6B9',
   };
 
@@ -66,9 +66,9 @@
   	'CDU/CSU':'#000000',
   	'SPD':'#b80000',
   	'FDP':'#f5bb00',
-  	'Linke':'#73008a',
+  	'Left':'#73008a',
   	'AfD':'#52c0ff',
-    'Grüne':'#00aa5b',
+    'Green':'#00aa5b',
   	'Other':'#CEC6B9',
   };
 
