@@ -4,6 +4,6 @@ export default {
 	'FDP':'#fcc83c',
 	'Linke':'#B3325D',
 	'AfD':'#1E8FCC',
-  'Grune':'#AECC70',
+  'Grüne':'#AECC70',
 	'Other':'#CEC6B9',
 };
