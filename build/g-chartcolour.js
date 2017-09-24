@@ -62,6 +62,16 @@
   	'Other':'#CEC6B9',
   };
 
+  var categoricalBarGermanyPoliticsSocial = {
+  	'CDU/CSU':'#000000',
+  	'SPD':'#b80000',
+  	'FDP':'#f5bb00',
+  	'Left':'#73008a',
+  	'AfD':'#52c0ff',
+    'Green':'#00aa5b',
+  	'Other':'#CEC6B9',
+  };
+
   var categoricalLineGermanyPolitics = {
   	'CDU/CSU':'#000000',
   	'SPD':'#b80000',
@@ -210,6 +220,7 @@
   exports.diverging_7 = diverging7;
   exports.extendedLine = extendedLine;
   exports.germanPoliticalParties_bar = categoricalBarGermanyPolitics;
+  exports.germanPoliticalParties_bar_social = categoricalBarGermanyPoliticsSocial;
   exports.germanPoliticalParties_line = categoricalLineGermanyPolitics;
   exports.linePrint = linePrint;
   exports.lineSocial = lineSocial;
