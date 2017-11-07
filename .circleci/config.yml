@@ -16,6 +16,6 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - node_modules
-      - test:
+      - run:
           name: Run snapshot test
           command: npm test
