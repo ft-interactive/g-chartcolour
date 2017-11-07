@@ -1,6 +1,6 @@
 {
   "name": "g-chartcolour",
-  "version": "0.8.17",
+  "version": "0.0.0",
   "description": "colours for FT charts",
   "keywords": [
     "d3",
@@ -9,6 +9,7 @@
   "license": "BSD-3-Clause",
   "main": "build/g-chartcolour.js",
   "jsnext:main": "index",
+  "module": "index.js",
   "homepage": "https://github.com/ft-interactive/g-chartcolour",
   "repository": {
     "type": "git",
@@ -16,15 +17,18 @@
   },
   "scripts": {
     "pretest": "rm -rf build && mkdir build && rollup -f umd -n gChartcolour -o build/g-chartcolour.js -- index.js",
-    "test": "tape 'test/**/*-test.js'",
+    "test": "jest",
+    "update-snapshot": "jest --updateSnapshot",
     "prepublish": "npm run test && uglifyjs build/g-chartcolour.js -c -m -o build/g-chartcolour.min.js && node doc.js",
     "postpublish": "zip -j build/g-chartcolour.zip -- LICENSE README.md build/g-chartcolour.js build/g-chartcolour.min.js",
     "build-docs": "node doc.js"
   },
   "devDependencies": {
+    "babel-jest": "^21.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^21.2.1",
     "nunjucks": "^3.0.0",
     "rollup": "0.27",
-    "tape": "4",
     "uglify-js": "2"
   }
 }
