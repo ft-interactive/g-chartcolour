@@ -12,6 +12,8 @@
   	clean:'#FFF',
   };
 
+  var barPrint = ['#0083b3','#95bfc5','#004d6d','#64a2c1','#c6d6cc'];
+
   var basicLineWeb = ['#EB5E8D','#0f5499']; //the first colour is neutral / background, the second colour primary/ highlight
   //export default ['#d5ccbf','#ed588d']; //new web colours uncomment when they are approved the first colour is neutral / background, the second colour primary/ highlight
 
@@ -211,6 +213,7 @@
   };
 
   exports.background = backgrounds;
+  exports.barPrint = barPrint;
   exports.basicLineWeb = basicLineWeb;
   exports.basicLinePrint = basicLinePrint;
   exports.basicLineSocial = basicLineSocial;
