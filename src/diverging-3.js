@@ -1,3 +1,3 @@
 export default [
-	'#b31147','#f3dec8','#105ba6'
+	'#b31147','#cec6b9','#105ba6'
 ];
