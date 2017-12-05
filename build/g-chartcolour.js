@@ -48,6 +48,14 @@
   '#1162b3'
   ];
 
+  var diverging3 = [
+  	'#b31147','#f3dec8','#105ba6'
+  ];
+
+  var diverging5 = [
+  	'#b31147','#d75d79','#f3dec8','#5884d6','#105ba6'
+  ];
+
   var diverging7 = [
   	'#b31147','#d75d79','#f09ba8','#f3dec8','#a9b0dd','#5884d6','#105ba6'
   ];
@@ -220,6 +228,8 @@
   exports.categorical_line = categorical_line;
   exports.categorical_bar = categorical_bar;
   exports.diverging = diverging;
+  exports.diverging_3 = diverging3;
+  exports.diverging_5 = diverging5;
   exports.diverging_7 = diverging7;
   exports.extendedLine = extendedLine;
   exports.germanPoliticalParties_bar = categoricalBarGermanyPolitics;
