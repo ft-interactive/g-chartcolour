@@ -1,6 +1,6 @@
 export default[
 	'#1E558C',
-  '#9EE5F3',
+  '#94d2e6',
   '#1E8FCC',
   '#B3325D',
   '#FF75A3',
