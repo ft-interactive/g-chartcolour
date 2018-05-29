@@ -94,7 +94,7 @@
 
   var linePrint = ['#006a93','#ddb831','#aad1d1','#ad1c21','#55a2c7','#0083b3'];
 
-  var lineSocial = ['#eb3f50','#00d9ca','#bf9413','#1f5e99','#a7ff59','#ff9b96','#81838f'];
+  var lineSocial = ['#ff0055','#0066ff','#b1e645','#00ccff','#f2e5da','#65798c'];
 
   var lineWeb = ['#0f5499','#EB5E8D','#70DCE6','#9dbf57','#208fce','#7f062e','#c2b7af'];
 
