@@ -220,6 +220,12 @@
     green: '#55c72c',
   };
 
+  var categoricalUsPoliticsMidterms2018 = {
+    "republican small area": "#E60008",
+    "republican large area": "#FF4C55",
+    democrat: "#0F5499"
+  };
+
   exports.background = backgrounds;
   exports.barPrint = barPrint;
   exports.basicLineWeb = basicLineWeb;
@@ -252,6 +258,7 @@
   exports.ukPoliticalPartiesPrint = categoricalUkPoliticsPrint;
   exports.usPoliticalPartiesSmallArea = categoricalUsPoliticsSmallarea;
   exports.usPoliticalPartiesLargeArea = categoricalUsPoliticsLargearea;
+  exports.usPoliticalPartiesMidterms2018 = categoricalUsPoliticsMidterms2018;
 
   Object.defineProperty(exports, '__esModule', { value: true });
 
