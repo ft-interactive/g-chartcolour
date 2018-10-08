@@ -23,6 +23,6 @@ To change an existing palette simply go into the `src` directory, open the file 
 
 To add a new palette create a sensibly named file in the `src` directory following the example of one of the existing palettes. Each palette exports either a single array eg <a href="https://github.com/ft-interactive/g-chartcolour/blob/master/src/sequential-multi.js">sequential-multi</a> or a single object eg <a href="https://github.com/ft-interactive/g-chartcolour/blob/master/src/categorical-uk-politics.js">categorical-uk-politics</a>). The palette should then be added to the <a href="https://github.com/ft-interactive/g-chartcolour/blob/master/index.js">index.js</a> file so it gets included in the build.
 
-Update `test/__snapshots__/g-chartcolour.test.js.snap` with your changes.
+Update snapshot testing with `npm run update-snapshot`.
 
 When you're happy with the palette create a pull request and that's it!
