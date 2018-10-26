@@ -270,8 +270,8 @@ Object {
     "democrat": "#0F5499",
     "republican large area": "#FF4C55",
     "republican small area": "#E60008",
-    "social democrat large area": "#579DD5",
-    "social democrat small area": "#177EE6",
+    "social democrat large area": "#177EE6",
+    "social democrat small area": "#579DD5",
     "social republican": "#FF5760",
   },
   "usPoliticalPartiesSmallArea": Object {
