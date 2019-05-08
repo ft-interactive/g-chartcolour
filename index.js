@@ -31,3 +31,4 @@ export {default as ukPoliticalPartiesPrint} from "./src/categorical-uk-politics-
 export {default as usPoliticalPartiesSmallArea} from "./src/categorical-us-politics-smallarea";
 export {default as usPoliticalPartiesLargeArea} from "./src/categorical-us-politics-largearea";
 export {default as usPoliticalPartiesMidterms2018} from "./src/categorical-us-politics-midterms-2018.js";
+export {default as euPoliticalParties, text as euPoliticalPartiesText} from "./src/categorical-europe-politics";
