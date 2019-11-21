@@ -13,4 +13,5 @@ export default {
 	other:'#CEC6B9',
   sdlp:'#bed676',
   uup:'#6da8e1',
+  brexit: '#80CFD6'
 };
