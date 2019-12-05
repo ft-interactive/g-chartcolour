@@ -164,6 +164,26 @@
   	other:'#CEC6B9',
     sdlp:'#bed676',
     uup:'#6da8e1',
+    brexit: '#80CFD6'
+  };
+
+  var categoricalUkPolitics2019 = {
+    Conservative: '#149ADB',
+    Labour: '#CF4D3C',
+    'Liberal Democrats': '#f09000',
+    UKIP: '#7200AB',
+    Green: '#8DEB9D',
+    SNP: '#FFDF00',
+    DUP: '#210066',
+    'Sinn Fin': '#006643',
+    'Plaid Cymru': '#990000',
+    'Independent group for Change': '#ffDE18',
+    'Independent/Other': '#D9CACE',
+    'The Speaker': '#FFFFFF',
+    SDLP: '#5ba373',
+    UUP: '#3F67CC',
+    Brexit: '#80CFD6',
+    Change: '#FC8B9D',
   };
 
   var categoricalUkPoliticsText = {
@@ -257,6 +277,7 @@
   exports.sequentialSingle = sequentialSingle;
   exports.sequentialSingle_teal = sequentialSingle__teal;
   exports.ukPoliticalParties = categoricalUkPolitics;
+  exports.ukPoliticalParties_2019 = categoricalUkPolitics2019;
   exports.ukPoliticalPartiesText = categoricalUkPoliticsText;
   exports.ukPoliticalPartiesPrint = categoricalUkPoliticsPrint;
   exports.usPoliticalPartiesSmallArea = categoricalUsPoliticsSmallarea;
