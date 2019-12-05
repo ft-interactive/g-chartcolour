@@ -26,7 +26,7 @@ export {default as sequentialMulti_3} from "./src/sequential-multi_3";
 export {default as sequentialSingle} from "./src/sequential-single";
 export {default as sequentialSingle_teal} from "./src/sequential-single__teal";
 export {default as ukPoliticalParties} from "./src/categorical-uk-politics";
-export { default as ukPoliticalParties_2019} from "./src/categorical-uk-politics-2019";
+export {default as ukPoliticalParties_2019} from "./src/categorical-uk-politics-2019";
 export {default as ukPoliticalPartiesText} from "./src/categorical-uk-politics-text";
 export {default as ukPoliticalPartiesPrint} from "./src/categorical-uk-politics-print";
 export {default as usPoliticalPartiesSmallArea} from "./src/categorical-us-politics-smallarea";

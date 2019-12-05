@@ -164,6 +164,26 @@
   	other:'#CEC6B9',
     sdlp:'#bed676',
     uup:'#6da8e1',
+    brexit: '#80CFD6'
+  };
+
+  var categoricalUkPolitics2019 = {
+    conservative: '#149ADB',
+    labour: '#CF4D3C',
+    'liberal democrats': '#f09000',
+    ukip: '#7200AB',
+    green: '#8DEB9D',
+    snp: '#FFDF00',
+    dup: '#210066',
+    sf: '#006643',
+    pc: '#990000',
+    alliance: '#ffDE18',
+    independent: '#D9CACE',
+    other: '#FFFFFF',
+    sdlp: '#5ba373',
+    uup: '#3F67CC',
+    brexit: '#80CFD6',
+    change: '#FC8B9D',
   };
 
   var categoricalUkPoliticsText = {
@@ -257,6 +277,7 @@
   exports.sequentialSingle = sequentialSingle;
   exports.sequentialSingle_teal = sequentialSingle__teal;
   exports.ukPoliticalParties = categoricalUkPolitics;
+  exports.ukPoliticalParties_2019 = categoricalUkPolitics2019;
   exports.ukPoliticalPartiesText = categoricalUkPoliticsText;
   exports.ukPoliticalPartiesPrint = categoricalUkPoliticsPrint;
   exports.usPoliticalPartiesSmallArea = categoricalUsPoliticsSmallarea;
